@@ -36,7 +36,8 @@ galleryImages.addEventListener("click", (e) => {
 
     galleryImages.addEventListener('keydown', event => {
         if(event.code == "Escape") {
-        instance.close()
+            instance.close()
+            console.log(event.code);
     }
     })  
   
